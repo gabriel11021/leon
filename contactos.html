@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+   <header>
+    <div>
+        <nav class="container">
+            <ul class="contered-list">
+                <li><a href="inicio.html">inicio</a></li>
+                <li><a href="informacion.html">informacion personal</a></li>
+                <li><a href="contactos.html">contactos</a></li>
+                <li><a href="aprendices.html">aprendices</a></li>
+            </ul>
+        </nav>
+    </div>
+<main>
+    <center>
+        <h1 class="formu">formularios</h1>
+    </center>
+    <li class="centrar">
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombres" name="nombres">
+        <br>
+
+        <label for="apellido">apellido</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+
+        <label for="direccion">direccion</label>
+        <input type="text" id="direccion" name="direccion">
+        <br>
+
+        <label for="fecha">fecha</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+
+        <label for="telefono">telefono</label>
+        <input type="text" id="telefono" name="telefono">
+        <br>
+
+        <label for="correo">nombre</label>
+        <input type="text" id="correo" name="correo">
+        <br>
+        <form action="tipo documento">
+            <label for="opcion">seleccione una opcion</label><br>
+            <input type="radio" id="c.c" name="tipo" value="c.c">
+            <label for="c.c">c.c</label><br>
+            
+            <input type="radio" id="t.i" name="tipo" value="t.i">
+            <label for="t.i">t.i</label><br>
+
+            <input type="radio" id="extrangera" name="tipo" value="estrangera">
+            <label for="estrangera">extrangera</label><br>
+        </form>
+        <form action="lenguaje favorito">
+            <label for="opcion">selecciona una aopcion</label><br>
+            <input type="checkbox" id="java" name="lenguaje" value="java">
+            <label for="java">java</label><br>
+            <input type="checkbox" id="java script" name="lenguaje" value="java script">
+            <label for="java script">java script</label><br>
+            <input type="checkbox" id="python" name="lenguaje" value="python">
+            <label for="python">python</label><br><br>
+        </form>
+        <button>enviar</button>
+    </li>
+</main>
